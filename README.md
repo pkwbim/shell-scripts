@@ -8,6 +8,13 @@ Collection of useful shell scripts for development and automation.
 
 Setup `.windsurf` submodule in a target directory.
 
+**Most Common:**
+
+```bash
+# With verbose output
+curl -fsSL https://raw.githubusercontent.com/pkwbim/shell-scripts/main/setup-submodule.sh | bash -s -- --verbose .
+```
+
 **Quick Usage:**
 
 ```bash
@@ -20,6 +27,7 @@ curl -fsSL https://raw.githubusercontent.com/pkwbim/shell-scripts/main/setup-sub
 # Use current directory
 curl -fsSL https://raw.githubusercontent.com/pkwbim/shell-scripts/main/setup-submodule.sh | bash -s -- "$PWD"
 ```
+
 
 **What it does:**
 1. Initializes git repository (if not already initialized)
