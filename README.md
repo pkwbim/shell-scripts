@@ -11,7 +11,6 @@ Setup `.windsurf` submodule in a target directory.
 **Most Common:**
 
 ```bash
-# With verbose output
 curl -fsSL https://raw.githubusercontent.com/pkwbim/shell-scripts/main/setup-submodule.sh | bash -s -- --verbose .
 ```
 
