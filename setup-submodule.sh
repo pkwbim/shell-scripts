@@ -77,6 +77,7 @@ if [ ! -d .git ]; then
     echo "🔧 Initializing git repository..."
   fi
   git init
+  git checkout -b main
 fi
 
 if [ $VERBOSE -eq 1 ]; then
